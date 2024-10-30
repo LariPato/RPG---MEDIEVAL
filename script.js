@@ -11,31 +11,35 @@ let sorteioDado = 0
   }
 
   // Onde Cleiton e Margarida vão morar?
- /* function casa(){
-    const numeroDaCasa = prompt("Margarida quer saber onde vocês vão morar. Escolha um número de 1 a 5 e diga para ela.")
+  function laranjinha(){
+    const numeroDaCasa = prompt("Você precisa escolher o que fazer agora. Digite um número de 1 a  5.")
     
     switch(numeroDaCasa){
           case "1": 
-            alert("Você diz para Margarida que vão morar  na França, na beira de um lago de águas cristalinas. Ela fica muito feliz com a ideia.")
-            alert("Vocês vivem muito felizes no lago francês.")
+            alert("Você foi passar um tempo na cidade e contraiu peste negra")
+            alert("Você morreu.")
           break
  
           case "2":
-            alert("Você conta para Margarida que irão morar ali mesmo, naquele campo florido. Ela não fica muito feliz com isso, mas se acostuma com a ideia.")
-            alert("Vocês vivem bem e felizes no campo.")
+            alert("Você  saiu andando e encontrou os Templários à  caminho de Jerusalém e se juntou a eles.")
+            alert("Agora você é um templário.")
            break
           
           case"3":
-            alert("Você informa para Margarida que seu plano é viajar pelo mundo e conhecer todos os países, ela fica maravilhada com a ideia!")
-            alert("Vocês vivem muito felizes, trocando de país a cada ano.")
+            alert("Um mensageiro te abordou e disse que você é um parente distante do rei e o único que poderia herdar o trono.")
+            alert("Agora você é rei e come laranja todos os dias.")
           break
           case "4":
-            alert("Você pega uma margarida no campo, oferece para ela e diz que ainda não sabe onde irão viver, mas que serão o lar um do outro. Os olhos dela brilham com isso.")
-            alert("Vocês vão viver em uma casinha branca em uma colina linda e vivem muito felizes.")
+            alert("Você foi para a cidade e ao ver as tristezas da peste negra você começou a ajudar heroicamente os enfermos.")
+            
           break
           
-          default: 
-            alert(`Isso não é opção seu engraçadinho. Tá querendo ir morar debaixo da ponte?`)
+          case "5":
+            alert("Você virou trovador e agora você escreve poesias comparando a beleza da sua amada à beleza de uma laranja fresca.")
+          
+            default: 
+            
+          alert(`Isso não é opção seu engraçadinho. Tá querendo ir morar debaixo da ponte?`)
             const morarNaPonte = prompt(`1 - Sim / 2 - Não`)
           
             switch(morarNaPonte){
@@ -55,7 +59,7 @@ let sorteioDado = 0
     }
          
 
-  }*/
+  }
 
 
 
@@ -158,8 +162,8 @@ function romanceDoPato(){
                   
                     }
                     else{
-                       alert("Você  recuepra sua bela laranja. Ela nunca esteve mais reluzente e lida. Com lágrimas de felicidade e emoção você come ela, provavelmente a última laranja da sua vida (e primeira tbm) pq você é pobre e laranja é caro.")
-                       return
+                       alert("Você  recuepra sua bela laranja. Ela nunca esteve mais reluzente e linda. Com lágrimas de felicidade e emoção você come ela, provavelmente a última laranja da sua vida (e primeira tbm) pq você é pobre e laranja é caro.")
+                      laranjinha()
                     }
 
             }
@@ -170,7 +174,7 @@ function romanceDoPato(){
                     
                    switch(diamanteOuFuga){
                     case "1":
-                       alert("Agora você é o chefe do pelotão das laranjas e vocês comem laranjas duas vezes por ano.🍊 No futuro você virou imperador do reino e mudou o nome dele para Reino Laranjudo.")
+                       alert("Agora você é o chefe do pelotão das laranjas e vocês comem laranjas duas vezes por ano.🍊 No futuro você deu um golpe e se tornou o imperador, mudando o nome do império para Império Laranjudo.")
                         break
                     case "2":
                         alert("Você voltou para casa com metade da laranja suja.🍊")
